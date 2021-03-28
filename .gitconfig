@@ -1,0 +1,25 @@
+[user]
+	name = David Molinero
+	email = david.molinero@cazoo.co.uk
+[core]
+	excludesfile = /Users/david.molinero/.gitignore_global
+ 	pager = diff-so-fancy | less --tabs=4 -RFX
+[color]
+	ui = true
+[help]
+	autocorrect = 1
+[pull]
+  ff = only
+[merge]
+  ff = only
+  log = true
+[push]
+	default = current
+[checkout]
+  defaultRemote = origin
+[diff-so-fancy]
+	markEmptyLines = false
+[interactive]
+  diffFilter = delta --color-only
+[rerere]
+	enabled = true
