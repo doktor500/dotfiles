@@ -54,6 +54,7 @@ mas "1Password", id: 443987910
 mas "clear", id: 504544917
 mas "meeter", id: 1510445899
 mas "pastebot", id: 1179623856
+mas "reeder 3", id: 880001334
 mas "skitch", id: 425955336
 mas "the unarchiver", id: 425424353
 mas "things", id: 904280696

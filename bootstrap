@@ -1,12 +1,27 @@
 #!/usr/bin/env bash
 
+# Install Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/david.molinero/.profile
+rm /Users/david.molinero/.zprofile || true; touch /Users/david.molinero/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/david.molinero/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Install Brew packages
 brew bundle
 
+# Configure git
 cp .gitconfig ~
+cp .gitignore ~
+
+# Install Zim
+touch ~/.hushlogin
+chsh -s /bin/zsh
+curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
+
+# Install Powerline font
+wget https://gist.github.com/justinmayer/7537418/raw/f397bf7440796597880e7aa153d693768ad70ef5/Menlo-for-Powerline.zip -O /tmp/Menlo-for-Powerline.zip
+unzip /tmp/Menlo-for-Powerline.zip -d /Library/Fonts
+rm /tmp/Menlo-for-Powerline.zip
 
 # Install Spicetify
 git clone https://github.com/morpheusthewhite/spicetify-themes ~/spicetify_data/Themes

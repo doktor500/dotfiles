@@ -477,7 +477,7 @@
     },
     "tap": {
       "homebrew/cask": {
-        "revision": "4a1bc7d00d6296da36ec61922e366afbdc6e878f"
+        "revision": "68750548c18e0614dce07f9dde26ab420a00d7c5"
       }
     },
     "cask": {
@@ -636,7 +636,7 @@
         "options": {
           "full_name": "itsycal"
         }
-      },
+      }
     },
     "mas": {
       "meeter": null,
@@ -651,7 +651,8 @@
       },
       "clear": null,
       "skitch": null,
-      "the unarchiver": null
+      "the unarchiver": null,
+      "reeder 3": null
     }
   },
   "system": {
@@ -659,7 +660,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.0.9",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "5bd19ca6cac60f0aab81b0bc808b81cd5a4c9c86",
+        "Homebrew/homebrew-core": "2fec1a1e5430c9b9f9fdb386f1ece5850b599ebf",
         "CLT": "12.4.0.0.1.1610135815",
         "Xcode": "12.0",
         "macOS": "11.2.3"
