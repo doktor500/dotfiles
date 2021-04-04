@@ -41,5 +41,6 @@ rm /tmp/Alfred.dmg
 # Configure nvm
 rm -f ~/.nvm.zsh; cp .nvm.zsh ~
 echo '. ~/.nvm.zsh' >> ~/.zprofile
+npm install -g yarn
 
 sudo softwareupdate -ia
