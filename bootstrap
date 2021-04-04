@@ -2,8 +2,8 @@
 
 # Install Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-rm /Users/david.molinero/.zprofile || true; touch /Users/david.molinero/.zprofile
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/david.molinero/.zprofile
+rm -f ~/.zprofile; touch ~/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Brew packages
@@ -34,5 +34,9 @@ hdiutil mount /tmp/Alfred
 mv /Volumes/Alfred/Alfred\ 3.app/ /Applications/
 hdiutil unmount /Volumes/Alfred/
 rm /tmp/Alfred.dmg
+
+# Configure nvm
+rm -f ~/.nvm.zsh; cp .nvm.zsh ~
+echo '. ~/.nvm.zsh' >> ~/.zprofile
 
 sudo softwareupdate -ia
