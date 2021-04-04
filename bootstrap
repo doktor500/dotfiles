@@ -38,9 +38,7 @@ mv /Volumes/Alfred/Alfred\ 3.app/ /Applications/
 hdiutil unmount /Volumes/Alfred/
 rm /tmp/Alfred.dmg
 
-# Configure nvm
-rm -f ~/.nvm.zsh; cp .nvm.zsh ~
-echo '. ~/.nvm.zsh' >> ~/.zprofile
+# Install yarn
 npm install -g yarn
 
 sudo softwareupdate -ia
