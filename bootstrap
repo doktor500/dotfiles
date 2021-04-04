@@ -9,6 +9,9 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Install Brew packages
 brew bundle
 
+# Configure finder
+defaults write com.apple.finder NewWindowTarget -string "PfHm"
+
 # Configure git
 cp .gitconfig ~
 cp .gitignore ~
