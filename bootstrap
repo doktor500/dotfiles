@@ -9,6 +9,13 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Install Brew packages
 brew bundle
 
+# Install npm packages
+npm install -g yarn
+npm install -g serverless
+
+# Install mfa
+pip3 install mfa
+
 # Configure finder
 defaults write com.apple.finder NewWindowTarget -string "PfHm"
 
@@ -38,10 +45,7 @@ mv /Volumes/Alfred/Alfred\ 3.app/ /Applications/
 hdiutil unmount /Volumes/Alfred/
 rm /tmp/Alfred.dmg
 
-# Install yarn
-npm install -g yarn
-
-# Install mfa
-pip3 install mfa
+# Install atom sync settings
+apm install sync-settings
 
 sudo softwareupdate -ia
