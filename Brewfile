@@ -1,3 +1,4 @@
+brew "awscli"
 brew "bat"
 brew "blackbox"
 brew "diff-so-fancy"

@@ -41,4 +41,7 @@ rm /tmp/Alfred.dmg
 # Install yarn
 npm install -g yarn
 
+# Install mfa
+pip3 install mfa
+
 sudo softwareupdate -ia
