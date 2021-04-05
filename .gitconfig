@@ -9,17 +9,17 @@
 [help]
 	autocorrect = 1
 [pull]
-  ff = only
+	ff = only
 [merge]
-  ff = only
-  log = true
+	ff = only
+	log = true
 [push]
 	default = current
 [checkout]
-  defaultRemote = origin
+	defaultRemote = origin
 [diff-so-fancy]
 	markEmptyLines = false
 [interactive]
-  diffFilter = delta --color-only
+	diffFilter = delta --color-only
 [rerere]
 	enabled = true
