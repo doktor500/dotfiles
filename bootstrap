@@ -48,4 +48,7 @@ rm /tmp/Alfred.dmg
 # Install atom sync settings
 apm install sync-settings
 
+# Install sdkman
+curl -s "https://get.sdkman.io" | bash
+
 sudo softwareupdate -ia
