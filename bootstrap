@@ -23,25 +23,25 @@ defaults write com.apple.finder NewWindowTarget -string "PfHm"
 cp .gitconfig ~
 cp .gitignore ~
 
-# Install Zim
+# Install zim
 touch ~/.hushlogin
 chsh -s /bin/zsh
 curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
 
 # Install zinit
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
+curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh | zsh
 
-# Install Powerline font
+# Install powerline font
 wget https://gist.github.com/justinmayer/7537418/raw/f397bf7440796597880e7aa153d693768ad70ef5/Menlo-for-Powerline.zip -O /tmp/Menlo-for-Powerline.zip
 unzip /tmp/Menlo-for-Powerline.zip -d /Library/Fonts
 rm /tmp/Menlo-for-Powerline.zip
 
-# Install Spicetify
+# Install spicetify
 git clone https://github.com/morpheusthewhite/spicetify-themes ~/spicetify_data/Themes
 sed -i -e 's/SpicetifyDefault/Dark/g' ~/spicetify_data/config.ini
 spicetify backup apply
 
-# Install Alfred
+# Install alfred
 wget https://cachefly.alfredapp.com/Alfred_3.8.6_972.dmg -O /tmp/Alfred.dmg
 hdiutil mount /tmp/Alfred
 mv /Volumes/Alfred/Alfred\ 3.app/ /Applications/
@@ -52,6 +52,6 @@ rm /tmp/Alfred.dmg
 apm install sync-settings
 
 # Install sdkman
-curl -s "https://get.sdkman.io" | bash
+curl -s "https://get.sdkman.io" | zsh
 
 sudo softwareupdate -ia
