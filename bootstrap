@@ -28,6 +28,9 @@ touch ~/.hushlogin
 chsh -s /bin/zsh
 curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
 
+# Install zinit
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
+
 # Install Powerline font
 wget https://gist.github.com/justinmayer/7537418/raw/f397bf7440796597880e7aa153d693768ad70ef5/Menlo-for-Powerline.zip -O /tmp/Menlo-for-Powerline.zip
 unzip /tmp/Menlo-for-Powerline.zip -d /Library/Fonts
