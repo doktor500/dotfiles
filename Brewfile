@@ -53,6 +53,7 @@ cask "sourcetree"
 cask "spectacle"
 cask "spotify"
 cask "telegram-desktop"
+cask "typora"
 cask "webstorm"
 cask "zoom"
 
