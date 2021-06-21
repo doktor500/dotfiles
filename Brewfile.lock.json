@@ -592,12 +592,6 @@
           "full_name": "spectacle"
         }
       },
-      "bartender": {
-        "version": "4.0.41,40041",
-        "options": {
-          "full_name": "bartender"
-        }
-      },
       "caption": {
         "version": "2.0.1",
         "options": {
