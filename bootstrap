@@ -54,4 +54,6 @@ apm install sync-settings
 # Install sdkman
 curl -s "https://get.sdkman.io" | zsh
 
+sudo gem install mdless
+
 sudo softwareupdate -ia
