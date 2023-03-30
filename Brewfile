@@ -32,7 +32,6 @@ brew "wifi-password"
 brew "youplot"
 brew "yq"
 brew "z"
-brew "zsh"
 
 tap "homebrew/cask"
 
