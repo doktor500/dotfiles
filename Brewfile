@@ -36,6 +36,7 @@ brew "z"
 tap "homebrew/cask"
 
 cask "ace-link"
+cask "aldente"
 cask "alt-tab"
 cask "appcleaner"
 cask "authy"
