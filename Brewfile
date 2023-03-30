@@ -75,5 +75,4 @@ mas "skitch", id: 425955336
 mas "the unarchiver", id: 425424353
 mas "things", id: 904280696
 mas "todo", id: 1274495053
-mas "tweetbot", id: 1384080005
 mas "whatsapp", id: 1147396723
