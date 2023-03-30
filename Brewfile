@@ -36,6 +36,7 @@ brew "z"
 
 tap "homebrew/cask"
 
+cask "ace-link"
 cask "appcleaner"
 cask "authy"
 cask "box-drive"
