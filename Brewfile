@@ -37,6 +37,7 @@ tap "homebrew/cask"
 
 cask "appcleaner"
 cask "authy"
+cask "box-drive"
 cask "caption"
 cask "devbook"
 cask "dropbox"
