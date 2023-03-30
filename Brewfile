@@ -75,6 +75,7 @@ cask "zoom"
 
 mas "1Password", id: 443987910
 mas "clear", id: 504544917
+mas "craft", id: 1487937127
 mas "meeter", id: 1510445899
 mas "pastebot", id: 1179623856
 mas "reeder 3", id: 880001334
