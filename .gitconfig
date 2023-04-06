@@ -1,6 +1,6 @@
 [user]
 	name = David Molinero
-	email = david.molinero@cazoo.co.uk
+	email = davidmolinero.com@gmail.com
 [core]
 	excludesfile = /Users/david.molinero/.gitignore_global
  	pager = diff-so-fancy | less --tabs=4 -RFX
