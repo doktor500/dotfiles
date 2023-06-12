@@ -11,7 +11,6 @@ brew bundle
 
 # Install npm packages
 npm install -g yarn
-npm install -g serverless
 
 # Install mfa
 pip3 install mfa
@@ -40,16 +39,6 @@ rm /tmp/Menlo-for-Powerline.zip
 git clone https://github.com/morpheusthewhite/spicetify-themes ~/spicetify_data/Themes
 sed -i -e 's/SpicetifyDefault/Dark/g' ~/spicetify_data/config.ini
 spicetify backup apply
-
-# Install alfred
-wget https://cachefly.alfredapp.com/Alfred_3.8.6_972.dmg -O /tmp/Alfred.dmg
-hdiutil mount /tmp/Alfred
-mv /Volumes/Alfred/Alfred\ 3.app/ /Applications/
-hdiutil unmount /Volumes/Alfred/
-rm /tmp/Alfred.dmg
-
-# Install atom sync settings
-apm install sync-settings
 
 # Install sdkman
 curl -s "https://get.sdkman.io" | zsh
