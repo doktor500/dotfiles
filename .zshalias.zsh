@@ -7,12 +7,17 @@ alias h='history'
 alias fh=' h | fzf'
 alias tree='tree -C'
 
-alias t='yarn test'
+alias ..='cd ..'
+alias ...='cd .. && cd ..'
+alias ....='cd .. && cd .. && cd ..'
+
+alias t='npm run test'
 alias curl='curlie'
 
 alias gcamnv='gca -n -m'
 alias gpnv='gp --no-verify'
 alias gpfnv='gpf --no-verify'
+alias gpp='ggpull -r && gp'
 
 alias prd='gh pr create --body "" --draft'
 alias pr='gh pr create --fill | tail -1 | xargs open'
