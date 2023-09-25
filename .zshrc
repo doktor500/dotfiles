@@ -175,13 +175,18 @@ esac
 export PATH=$PATH:/Users/david.molinero/.spicetify
 
 function ds() {
-  cid=$(docker ps | sed 1d | fzf -q "$1" | awk '{print $1}')
-  [ -n "$cid" ] && docker stop "$cid"
+  id=$(docker ps | sed 1d | fzf -q "$1" | awk '{print $1}')
+  [ -n "$id" ] && docker stop "$id"
 }
 
 function drm() {
-  cid=$(docker ps -a | sed 1d | fzf -q "$1" | awk '{print $1}')
-  [ -n "$cid" ] && docker rm "$cid"
+  id=$(docker ps -a | sed 1d | fzf -q "$1" | awk '{print $1}')
+  [ -n "$id" ] && docker rm "$id"
+}
+
+function drmi() {
+  id=$(docker images | sed 1d | fzf -q "$1" | awk '{print $3}')
+  [ -n "$id" ] && docker image rm "$id"
 }
 
 # https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/atomic.omp.json
