@@ -51,4 +51,6 @@ yabai -m rule --add app="^FromScratch$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^Kap$" manage=off
 
+yabai -m config external_bar all:32:0
+
 echo "yabai configuration loaded.."
