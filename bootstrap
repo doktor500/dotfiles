@@ -18,6 +18,9 @@ pip3 install mfa
 # Configure finder
 defaults write com.apple.finder NewWindowTarget -string "PfHm"
 
+# Configure rectangle
+defaults write com.knollsoft.Rectangle screenEdgeGapTop -int 26
+
 # Configure git
 cp .gitconfig ~
 cp .gitignore ~
