@@ -1,4 +1,5 @@
 tap "common-fate/granted"
+tap "FelixKratz/formulae"
 
 brew "ag"
 brew "awscli"
@@ -23,6 +24,7 @@ brew "mas"
 brew "mdless"
 brew "miller"
 brew "nvm"
+brew "sketchybar"
 brew "terminal-notifier"
 brew "thefuck"
 brew "tldr"
