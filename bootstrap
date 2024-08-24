@@ -48,6 +48,7 @@ curl -s "https://get.sdkman.io" | zsh
 
 # Sketchybar
 ln -s $(which sketchybar) $(dirname $(which sketchybar))/sketchy_topbar
+cp -r github.com/doktor500/dotfiles/tree/main/config/sketchybar ~/.config/
 
 sudo gem install mdless
 
