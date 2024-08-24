@@ -46,6 +46,9 @@ spicetify backup apply
 # Install sdkman
 curl -s "https://get.sdkman.io" | zsh
 
+# Sketchybar
+ln -s $(which sketchybar) $(dirname $(which sketchybar))/sketchy_topbar
+
 sudo gem install mdless
 
 sudo softwareupdate -ia
