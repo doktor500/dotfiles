@@ -14,10 +14,12 @@ alias ....='cd .. && cd .. && cd ..'
 alias t='npm run test'
 alias curl='curlie'
 
+alias gp='gpsup'
 alias gcamnv='gca -n -m'
 alias gpnv='gp --no-verify'
 alias gpfnv='gpf --no-verify'
 alias gpp='ggpull -r && gp'
+alias ggpullr='g fetch --all && ggpull -r'
 
 alias prd='gh pr create --body "" --draft'
 alias pr='gh pr create --fill | tail -1 | xargs open'
