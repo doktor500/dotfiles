@@ -53,4 +53,4 @@ yabai -m rule --add app="^Kap$" manage=off
 
 yabai -m config external_bar all:52:0
 
-echo "yabai configuration loaded.."
+echo "yabai configuration loaded..."
