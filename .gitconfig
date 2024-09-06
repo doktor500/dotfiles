@@ -3,7 +3,7 @@
 	email = doktor500@users.noreply.github.com
 [core]
 	excludesfile = /Users/david.molinero/.gitignore_global
- 	pager = diff-so-fancy | less --tabs=4 -RFX
+ 	pager = delta
 [color]
 	ui = true
 [help]
