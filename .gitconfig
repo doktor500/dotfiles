@@ -3,7 +3,7 @@
 	email = doktor500@users.noreply.github.com
 [core]
 	excludesfile = /Users/david.molinero/.gitignore_global
- 	pager = delta
+ 	pager = delta --true-color never
 [color]
 	ui = true
 [help]
@@ -47,4 +47,12 @@
 	remote = origin
 	merge = refs/heads/master
 [delta]
-        line-numbers = true
+	line-numbers = true
+	side-by-side = true
+	features = theme
+[delta "theme"]
+	syntax-theme = Monokai Extended
+	minus-style = syntax "#90274A"
+	minus-emph-style = syntax bold "#f92672"
+	plus-style = syntax "#86B42B"
+	plus-emph-style = syntax bold "#668426"
