@@ -15,6 +15,7 @@
 	log = true
 [push]
 	default = current
+        autoSetupRemote = true
 [checkout]
 	defaultRemote = origin
 [diff-so-fancy]
