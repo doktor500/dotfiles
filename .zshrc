@@ -157,9 +157,8 @@ SAVEHIST=10000000
 zplugin load zdharma/history-search-multi-word
 
 autoload -Uz compinit
-compinit
 
-. /opt/homebrew/etc/profile.d/z.sh
+. /usr/local/etc/profile.d/z.sh
 . ~/.zshgit.zsh
 . ~/.zshnvm.zsh
 . ~/.zshalias.zsh
