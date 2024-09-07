@@ -1,5 +1,4 @@
-eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(/usr/local/bin/brew shellenv)"
 eval $(thefuck --alias)
 
-export PATH="$PATH:/Users/david.molinero/Library/Application Support/JetBrains/Toolbox/scripts"
-
+export PATH="$PATH:/usr/local/bin"
