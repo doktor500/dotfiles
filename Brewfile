@@ -1,4 +1,3 @@
-tap "homebrew/cask-fonts"
 tap "common-fate/granted"
 tap "FelixKratz/formulae"
 
@@ -63,7 +62,6 @@ cask "cron"
 cask "devbook"
 cask "dropbox"
 cask "easy-move-plus-resize"
-cask "font-hack-nerd-font"
 cask "fromscratch"
 cask "hiddenbar"
 cask "iterm2"
