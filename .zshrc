@@ -195,7 +195,7 @@ function drmi() {
 # https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/hotstick.minimal.omp.json
 # https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/iterm2.omp.json
 # https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/marcduiker.omp.json
-eval "$(oh-my-posh init zsh --config /Users/david.molinero/dev/dotfiles/dmcom.json)"
+eval "$(oh-my-posh init zsh --config https://raw.githubusercontent.com/doktor500/dotfiles/main/dmcom.json)"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
