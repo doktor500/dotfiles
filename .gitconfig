@@ -2,7 +2,6 @@
 	name = David Molinero
 	email = doktor500@users.noreply.github.com
 [core]
-	excludesfile = /Users/david.molinero/.gitignore_global
  	pager = delta
 [color]
 	ui = true
@@ -15,7 +14,7 @@
 	log = true
 [push]
 	default = current
-        autoSetupRemote = true
+	autoSetupRemote = true
 [checkout]
 	defaultRemote = origin
 [diff-so-fancy]
@@ -35,11 +34,6 @@
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
-[commit]
-	template = /Users/david.molinero/.gitmessage
-[remote "origin"]
-	url = <repo_url>
-	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "main"]
 	remote = origin
 	merge = refs/heads/main
