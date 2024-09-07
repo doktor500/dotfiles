@@ -14,6 +14,7 @@ alias ....='cd .. && cd .. && cd ..'
 alias t='npm run test'
 alias curl='curlie'
 
+alias lg="lazygit"
 alias gp='gpsup'
 alias gcamnv='gca -n -m'
 alias gpnv='gp --no-verify'
