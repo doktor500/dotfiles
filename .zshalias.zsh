@@ -1,7 +1,7 @@
-alias l='exa -l'
-alias ls='exa'
-alias ll='exa -l'
-alias la='exa -la'
+alias l='eza -l'
+alias ls='eza'
+alias ll='eza -l'
+alias la='eza -la'
 
 alias h='history'
 alias fh=' h | fzf'
