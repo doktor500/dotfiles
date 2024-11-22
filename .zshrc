@@ -158,7 +158,7 @@ zplugin load zdharma/history-search-multi-word
 
 autoload -Uz compinit
 
-. /usr/local/etc/profile.d/z.sh
+. /opt/homebrew/etc/profile.d/z.sh
 . ~/.zshgit.zsh
 . ~/.zshnvm.zsh
 . ~/.zshalias.zsh
