@@ -9,9 +9,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Install Brew packages
 brew bundle
 
-# Install npm packages
-npm install -g yarn
-
 # Install mfa
 pip3 install mfa
 
