@@ -1,0 +1,5 @@
+# ~/Library/Application\ Support/lazygit/config.yml
+git:
+  paging:
+    colorArg: always
+    pager: delta --dark --paging=never
