@@ -102,6 +102,7 @@ mas "clear", id: 504544917
 mas "craft", id: 1487937127
 mas "gestimer", id: 990588172
 mas "handmirror", id: 1502839586
+mas "klack", id: 6446206067
 mas "meeter", id: 1510445899
 mas "pastebot", id: 1179623856
 mas "reeder 3", id: 880001334
