@@ -108,6 +108,7 @@ mas "pastebot", id: 1179623856
 mas "reeder 3", id: 880001334
 mas "slack", id: 803453959
 mas "skitch", id: 425955336
+mas "tailscale", id: 1475387142
 mas "the unarchiver", id: 425424353
 mas "things", id: 904280696
 mas "todo", id: 1274495053
