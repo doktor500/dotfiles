@@ -347,5 +347,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorCustomizations": {
     "focusBorder": "#00000000",
-  }
+  },
+  "redhat.telemetry.enabled": false,
+  "application.extensionMarketUrl": "https://marketplace.visualstudio.com/VSCode"
 }
