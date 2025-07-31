@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Ayu Mirage",
+  "workbench.colorTheme": "Electron",
   "window.commandCenter": true,
   "git.autofetch": true,
   "multiCommand.commands": [
@@ -355,7 +355,10 @@
       "editorGroupHeader.tabsBackground": "#232A35",
       "focusBorder": "#00000000",
       "tab.inactiveBackground": "#232A35",
-    }
+    },
+    "[Electron]": {
+      "sideBarSectionHeader.background": "#232D3D"
+    },
   },
   "redhat.telemetry.enabled": false,
   "application.extensionMarketUrl": "https://marketplace.visualstudio.com/VSCode"
