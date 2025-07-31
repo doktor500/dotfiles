@@ -339,14 +339,23 @@
   "editor.fontSize": 12,
   "files.autoSave": "onFocusChange",
   "eslint.format.enable": true,
-   "editor.codeActionsOnSave": {
+  "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "editor.bracketPairColorization.enabled": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorCustomizations": {
-    "focusBorder": "#00000000",
+    "[Deep Blue]": {
+      "editorGroupHeader.tabsBackground": "#232A35",
+      "focusBorder": "#00000000",
+      "tab.inactiveBackground": "#232A35",
+    }
   },
   "redhat.telemetry.enabled": false,
   "application.extensionMarketUrl": "https://marketplace.visualstudio.com/VSCode"
