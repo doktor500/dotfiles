@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Deep Blue",
+  "workbench.colorTheme": "Ayu Mirage",
   "window.commandCenter": true,
   "git.autofetch": true,
   "multiCommand.commands": [
@@ -344,5 +344,7 @@
   },
   "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
   "editor.bracketPairColorization.enabled": true,
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "focusBorder": "#00000000",
 }
