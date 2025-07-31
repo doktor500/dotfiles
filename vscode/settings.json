@@ -357,7 +357,10 @@
       "tab.inactiveBackground": "#232A35",
     },
     "[Electron]": {
-      "sideBarSectionHeader.background": "#232D3D"
+      "sideBarSectionHeader.background": "#232D3D",
+      "list.inactiveSelectionBackground": "#202836",
+      "list.inactiveSelectionForeground": "#CCCCCC",
+      "editorCursor.foreground": "#818CA6" 
     },
   },
   "redhat.telemetry.enabled": false,
