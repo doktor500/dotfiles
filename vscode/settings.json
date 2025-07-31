@@ -1,4 +1,5 @@
 {
+  "workbench.colorTheme": "Deep Blue",
   "window.commandCenter": true,
   "git.autofetch": true,
   "multiCommand.commands": [
@@ -12,13 +13,11 @@
   ],
   "todohighlight.keywords": [
     {
-      "text": "@TODO:",
+      "text": "TODO:",
       "color": "#87CEFA",
-      "backgroundColor": "#253238",
-    },
+      "backgroundColor": "#253238"
+    }
   ],
-  "workbench.colorTheme": "Material Theme",
-  "workbench.iconTheme": "material-icon-theme",
   "editor.semanticHighlighting.enabled": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -227,7 +226,7 @@
           "entity.name.variable.local",
           "punctuation.definition.variable",
           "variable.assignment",
-          "variable.other",
+          "variable.other"
         ],
         "settings": {
           "foreground": "#FCFAFA",
@@ -280,7 +279,7 @@
       {
         "name": "Markup class tag",
         "scope": [
-          "entity.other.attribute-name.class",
+          "entity.other.attribute-name.class"
         ],
         "settings": {
           "foreground": "#A3E076",
@@ -327,7 +326,7 @@
           "foreground": "#FCFCFA",
           "fontStyle": ""
         }
-      },
+      }
     ]
   },
   "editor.semanticTokenColorCustomizations": {
@@ -335,14 +334,15 @@
     "rules": {
       "function.exported": "#78DCE8",
       "variable.import": "#78DCE8"
-    },
-  }
+    }
+  },
   "editor.fontSize": 12,
   "files.autoSave": "onFocusChange",
   "eslint.format.enable": true,
    "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
-  "editor.bracketPairColorization.enabled": true
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.iconTheme": "material-icon-theme"
 }
