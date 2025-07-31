@@ -347,4 +347,5 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorCustomizations": {
     "focusBorder": "#00000000",
+  }
 }
