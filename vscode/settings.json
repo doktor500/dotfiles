@@ -374,5 +374,6 @@
   "editor.tabSize": 2,
   "terminal.integrated.cursorStyle": "underline",
   "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
-  "terminal.integrated.cursorStyleInactive": "block"
+  "terminal.integrated.cursorStyleInactive": "block",
+  "terminal.integrated.cursorBlinking": true
 }
