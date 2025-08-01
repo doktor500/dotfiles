@@ -336,7 +336,7 @@
       "variable.import": "#78DCE8"
     }
   },
-  "editor.fontSize": 12,
+  "editor.fontSize": 11.5,
   "files.autoSave": "onFocusChange",
   "eslint.format.enable": true,
   "editor.codeActionsOnSave": {
@@ -367,7 +367,12 @@
     },
   },
   "editor.cursorBlinking": "expand",
-  "editor.cursorStyle": "line",
+  "editor.cursorStyle": "underline",
   "redhat.telemetry.enabled": false,
-  "application.extensionMarketUrl": "https://marketplace.visualstudio.com/VSCode"
+  "application.extensionMarketUrl": "https://marketplace.visualstudio.com/VSCode",
+  "class-collapse.functionality.enable": true,
+  "editor.tabSize": 2,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  "terminal.integrated.cursorStyleInactive": "block"
 }
