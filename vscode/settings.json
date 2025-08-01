@@ -367,7 +367,7 @@
     },
   },
   "editor.cursorBlinking": "expand",
-  "editor.cursorStyle": "underline",
+  "editor.cursorStyle": "line",
   "redhat.telemetry.enabled": false,
   "application.extensionMarketUrl": "https://marketplace.visualstudio.com/VSCode",
   "class-collapse.functionality.enable": true,
