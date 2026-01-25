@@ -95,11 +95,10 @@ cask "tomatobar"
 cask "transmission"
 cask "typora"
 cask "visual-studio-code"
+cask "warp"
 cask "webstorm"
 cask "zoom"
 
-mas "1Password", id: 443987910
-mas "clear", id: 504544917
 mas "craft", id: 1487937127
 mas "commandx", id: 6448461551
 mas "gestimer", id: 990588172
