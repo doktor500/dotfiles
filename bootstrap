@@ -9,14 +9,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Install Brew packages
 brew bundle
 
-# Install mfa
-pip3 install mfa
-
 # Configure finder
 defaults write com.apple.finder NewWindowTarget -string "PfHm"
-
-# Configure rectangle
-defaults write com.knollsoft.Rectangle screenEdgeGapTop -int 26
 
 # Configure git
 cp .gitconfig ~
@@ -42,9 +36,5 @@ spicetify backup apply
 
 # Install sdkman
 curl -s "https://get.sdkman.io" | zsh
-
-# Sketchybar
-ln -s $(which sketchybar) $(dirname $(which sketchybar))/sketchy_topbar
-cp -r github.com/doktor500/dotfiles/tree/main/config/sketchybar ~/.config/
 
 sudo softwareupdate -ia
